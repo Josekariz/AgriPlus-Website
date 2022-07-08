@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  display: inline-flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+
+  overflow: auto;
+}
+.name,
+a {
+  color: white;
+}
+.name {
+  font-size: 35px;
+  padding-right: 17%;
+  padding-left: 5%;
+}
+
+.home,
+.about,
+.products,
+.contact {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact {
+  padding-right: 125px;
+  box-sizing: border-box;
+}
+.login {
+  padding-right: 60px;
+  font-size: 18px;
+  padding-left: 50px;
+  position: relative;
+  top: 5px;
+  right: -100px;
+  font-weight: 500;
+}
+.getstarted {
+  padding: 20px;
+  background-color: #ed661f;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  right: -100px;
+}
+
+.home:hover {
+  border-bottom: #ed661f solid 5px;
+}
+.about:hover {
+  border-bottom: #ed661f solid 5px;
+}
+.products:hover{
+    border-bottom: #ed661f solid 5px;
+}
+.contact:hover{
+    border-bottom: #ed661f solid 5px;
+
+}
+.login:hover{
+    border-bottom: #ed661f solid 5px;
+
+}
