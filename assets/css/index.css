@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  
 }
 nav {
   background-color: black;
@@ -22,6 +23,9 @@ a {
   font-size: 35px;
   padding-right: 17%;
   padding-left: 5%;
+}
+.name:hover{
+  color: #ed661f;
 }
 
 .home,
@@ -60,14 +64,21 @@ a {
 .about:hover {
   border-bottom: #ed661f solid 5px;
 }
-.products:hover{
-    border-bottom: #ed661f solid 5px;
+.products:hover {
+  border-bottom: #ed661f solid 5px;
 }
-.contact:hover{
-    border-bottom: #ed661f solid 5px;
-
+.contact:hover {
+  border-bottom: #ed661f solid 5px;
 }
-.login:hover{
-    border-bottom: #ed661f solid 5px;
-
+.login:hover {
+  border-bottom: #ed661f solid 5px;
+}
+.homebar{
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/image1.png);
+  background-position: center;
+  border: 2px solid lime;
+background-size: cover;
+background-repeat: no-repeat;
 }
