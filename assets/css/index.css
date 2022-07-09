@@ -88,8 +88,7 @@ a {
   position: relative;
   top: 100px;
   width: 50%;
-  
-  
+
   left: 100px;
   padding-bottom: -140px;
 }
@@ -114,8 +113,8 @@ a {
   top: 100px;
   height: 500px;
 }
-.info{
-  box-shadow: 0px 3px 4px  rgb(128, 128, 128);
+.info {
+  box-shadow: 0px 3px 4px rgb(128, 128, 128);
   background-color: rgb(245, 230, 230);
   width: 45%;
   height: 150px;
@@ -128,33 +127,95 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-.why > .answer > h3:hover{
+.why > .answer > h3:hover {
   text-decoration: underline solid 5px #ed661f;
 }
-.why{
+.why {
   padding-top: 50px;
   padding-left: 80px;
- display: flex;
+  display: flex;
   width: 100%;
   justify-content: space-around;
-  
- 
 }
-.answer{
+.answer {
   width: 40%;
 }
-.answer> h3{
+.answer > h3 {
   font-size: xx-large;
   font-weight: bold;
 }
-.answer > p{
-  font-size: xx-large;
+.answer > p {
+  font-size: large;
 }
-.customercare > img{
+.customercare > img {
   box-sizing: content-box;
   height: 340px;
   width: 450px;
-  
-  
-  
 }
+.cat {
+  text-align: center;
+  font-size: large;
+}
+.cat > h2:hover {
+  text-decoration: 7px #ed661f underline;
+}
+.cat > p {
+  padding-top: 20px;
+}
+.popular > h2 {
+  padding-left: 170px;
+  padding-bottom: 10px;
+}
+.popular > h2:hover {
+  text-decoration: underline 4px #ed661f;
+}
+.tiles {
+  padding-left: 105px;
+  justify-content: space-around;
+  display: inline-flex;
+  flex-direction: row;
+}
+.rec > img {
+  height: 200px;
+  width: 200px;
+  margin: 25px 60px;
+}
+.img4 > img {
+  height: 200px;
+  width: 200px;
+  margin: 25px 60px;
+}
+.img5 > img {
+  height: 200px;
+  width: 200px;
+  margin: 25px 60px;
+}
+.img6 > img {
+  height: 200px;
+  width: 200px;
+  margin: 25px 60px;
+}
+.tiles > h3, p {
+  padding-left: 55px;
+}
+.tiles > img, h3{
+  padding-left: 55px;
+}
+.rec > img:hover {
+ box-shadow: 5px 15px 15px grey;
+}
+.img4 > img:hover {
+  box-shadow: 5px 15px 15px grey;
+}
+.img5 > img:hover {
+  box-shadow: 5px 15px 15px grey;
+}
+.img6 > img:hover {
+  box-shadow:  5px 15px 15px grey;}
+  .newest > h2{
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  .newest > h2:hover{
+    text-decoration: underline 5px solid #ed661f;
+  }
