@@ -4,7 +4,6 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  
 }
 nav {
   background-color: black;
@@ -12,8 +11,7 @@ nav {
   width: 100%;
   height: 100px;
   align-items: center;
-
-  overflow: auto;
+  object-fit: contain;
 }
 .name,
 a {
@@ -24,7 +22,7 @@ a {
   padding-right: 17%;
   padding-left: 5%;
 }
-.name:hover{
+.name:hover {
   color: #ed661f;
 }
 
@@ -73,12 +71,60 @@ a {
 .login:hover {
   border-bottom: #ed661f solid 5px;
 }
-.homebar{
+.homebar {
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-image: url(../images/image1.png);
   background-position: center;
   border: 2px solid lime;
-background-size: cover;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+.hometext {
+  align-content: center;
+  overflow: auto;
+  position: relative;
+  top: 100px;
+  width: 50%;
+  
+  
+  left: 100px;
+  padding-bottom: -140px;
+}
+.hometext > h1 {
+  font-size: 60px;
+}
+.hometext > p {
+  font-size: large;
+}
+.explore > button > a {
+  padding: 25px;
+  background-color: #ed661f;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+.veg {
+  width: 50%;
+  position: relative;
+  top: 100px;
+  height: 500px;
+}
+.info{
+  box-shadow: 0px 3px 4px  rgb(128, 128, 128);
+  background-color: rgb(245, 230, 230);
+  width: 45%;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: -70px;
+  right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
