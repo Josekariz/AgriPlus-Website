@@ -128,3 +128,33 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+.why > .answer > h3:hover{
+  text-decoration: underline solid 5px #ed661f;
+}
+.why{
+  padding-top: 50px;
+  padding-left: 80px;
+ display: flex;
+  width: 100%;
+  justify-content: space-around;
+  
+ 
+}
+.answer{
+  width: 40%;
+}
+.answer> h3{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.answer > p{
+  font-size: xx-large;
+}
+.customercare > img{
+  box-sizing: content-box;
+  height: 340px;
+  width: 450px;
+  
+  
+  
+}
