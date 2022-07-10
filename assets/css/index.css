@@ -347,3 +347,50 @@ font-weight: bolder;
 font-weight: bolder;
 font-size: larger;
 }
+.last{
+  background-color: black;
+  width: 100%;
+  height: 500px;
+  color: white;
+  border-top: whitesmoke solid 10px;
+  position: relative;
+  top: 10px;
+  
+}
+.dwnld > .appstore > a >  h2{
+  color: black;
+}
+.dwnld > .playstore > a >  h2{
+  color: black;
+}
+.dwnld > .playstore > a >  p{
+  color: black;
+}
+.dwnld > .appstore > a > p {
+  color: black;
+}
+.dwnld > h2, i{
+  color: black;
+  }
+  .socials{
+    position: relative;
+    right: -100px;
+    top: 150px;
+  }
+  .socials > h1,h2{
+    padding-bottom: 20px;
+  }
+ .info{
+  position: relative;
+  width: 50%;
+  background-color: black;
+  box-shadow: none;
+  overflow: auto;
+  color: white;
+ }
+ .foot{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: -10px;
+ }
