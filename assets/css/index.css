@@ -195,14 +195,16 @@ a {
   width: 200px;
   margin: 25px 60px;
 }
-.tiles > h3, p {
+.tiles > h3,
+p {
   padding-left: 55px;
 }
-.tiles > img, h3{
+.tiles > img,
+h3 {
   padding-left: 55px;
 }
 .rec > img:hover {
- box-shadow: 5px 15px 15px grey;
+  box-shadow: 5px 15px 15px grey;
 }
 .img4 > img:hover {
   box-shadow: 5px 15px 15px grey;
@@ -211,11 +213,43 @@ a {
   box-shadow: 5px 15px 15px grey;
 }
 .img6 > img:hover {
-  box-shadow:  5px 15px 15px grey;}
-  .newest > h2{
-    padding-left: 160px;
-    padding-top: 20px;
-  }
-  .newest > h2:hover{
-    text-decoration: underline 5px solid #ed661f;
-  }
+  box-shadow: 5px 15px 15px grey;
+}
+.newest > h2 {
+  padding-left: 160px;
+  padding-top: 20px;
+}
+.newest > h2:hover {
+  text-decoration: underline 5px solid #ed661f;
+}
+.see {
+  float: right;
+  padding-right: 170px;
+  padding-top: 20px;
+  display: inline-flex;
+  padding-bottom: 50px;
+
+}
+.see > h2:hover {
+  text-decoration: underline 4px solid #ed661f;
+}
+
+.arrow {
+  width: 100px;
+  height: 4px;
+  color: #ed661f;
+  
+}
+.space {
+  background-color: hwb(0 72% 23% / 0.836);
+  height: 23px;
+  clear: both;
+  max-width: 98%;
+  position: relative;
+  left: 20px;
+  right: -20px;
+  bottom: 30px;
+}
+.say{
+ padding-left: 30px;
+}
