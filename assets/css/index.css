@@ -394,3 +394,28 @@ font-size: larger;
   position: relative;
   top: -10px;
  }
+ .info:hover{
+  color: #ed661f;
+ }
+ .one > a{
+  padding: 10px;
+ }
+ .two>a{
+  padding: 10px;
+ }
+ .three >a{
+  padding: 10px;
+
+ }
+ .one >a :hover{
+  color: #ed661f;
+
+ }
+ .two >a :hover{
+  color: #ed661f;
+
+ }
+ .three >a :hover{
+  color: #ed661f;
+
+ }
