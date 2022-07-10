@@ -244,12 +244,48 @@ h3 {
   background-color: hwb(0 72% 23% / 0.836);
   height: 23px;
   clear: both;
-  max-width: 98%;
+  max-width: 96%;
   position: relative;
-  left: 20px;
+  left: 30px;
+  right: 20px;
   right: -20px;
   bottom: 30px;
 }
-.say{
- padding-left: 30px;
+.say > h3{
+ padding: 30px;
+ padding-left: 120px;
+ font-size: xx-large;
+
 }
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.checked{
+  color: #ed661f;
+ font-size: 20px;
+ padding-bottom: 20px;
+}
+.checkedr{
+  color: grey;
+  padding-bottom: 20px;
+}
+.reb, .joe, .lav{
+box-shadow: 0px 6px 7px 4px grey ;
+width: 20%;
+height: 50%;
+}
+ .dp >img{
+  height: 40px;
+  }
+  .dp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    
+  }
+  .dp >p{
+    font-size: large;
+  }
