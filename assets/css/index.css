@@ -13,6 +13,9 @@ nav {
   align-items: center;
   object-fit: contain;
 }
+header{
+  width: 100%;
+}
 .name,
 a {
   color: white;
