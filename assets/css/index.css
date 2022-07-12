@@ -1,3 +1,4 @@
+
 * {
   padding: 0px;
   margin: 0px;
@@ -27,6 +28,7 @@ a {
 }
 .name:hover {
   color: #ed661f;
+  text-decoration: underline ;
 }
 
 .home,
@@ -390,6 +392,16 @@ font-size: larger;
   box-shadow: none;
   overflow: auto;
   color: white;
+  width: 45%;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: -70px;
+  right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
  }
  .foot{
   text-align: center;
