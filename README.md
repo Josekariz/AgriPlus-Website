@@ -1,11 +1,5 @@
 # AgriPlus-Website
-<<<<<<< HEAD
-# name: Joseph Kariuki Macharia
-# The project is about a website where people buy fresh farm products.It is a plattform where buying and selling of quality produce has been made easier. The site contains agricultural products for sale which can be bought online and has verified customer ratings.The site is trusted and gives quality products.
 
-# Languges used are Html and css 
-#https://github.com/Josekariz/AgriPlus-Website/tree/gh-pages
-=======
 # portfolio
   By Joseph Macharia
   
@@ -48,5 +42,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # Authors Info
-[joseph.macharia@moringaschool.com](#gmail.com)
->>>>>>> 51f98cd0bf4cf6550bcc28e817ee792b802054ab
+* [joseph.macharia@moringaschool.com](#gmail.com)
+* [Github](https://github.com/Josekariz)
+
+
